@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(180deg, #3b0f14, #5a1a22);
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
+/* Partículas */
+.particles {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Contenedor */
+.container {
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 120px 20px;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 120px;
+}
+
+/* Frases */
+.frase {
+    background: rgba(255, 248, 245, 0.96);
+    color: #3b1416;
+    border-radius: 26px;
+    padding: 55px;
+    margin: 100px auto;
+    max-width: 740px;
+    font-size: 1.25rem;
+    line-height: 2;
+    text-align: justify;
+    box-shadow: 0 30px 55px rgba(0, 0, 0, 0.22);
+}
+
+.frase.final {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* Foto */
+.foto {
+    display: flex;
+    justify-content: center;
+    margin: 120px 0;
+}
+
+.foto img {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 28px;
+    box-shadow: 0 35px 60px rgba(0, 0, 0, 0.35);
+}

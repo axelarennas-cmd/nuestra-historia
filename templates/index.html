@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Nuestra Historia</title>
+
+    <!-- Fuente elegante -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <!-- Partículas -->
+    <div class="particles"></div>
+
+    <!-- Contenido -->
+    <div class="container">
+
+        <h1>Nuestra historia</h1>
+
+        <div class="frase">
+            A veces te miro y pienso<br>
+            que el mundo se alineó<br>
+            para que tú y yo nos conociéramos.
+        </div>
+
+        <div class="frase">
+            Letritas,<br><br>
+            Te amo con todo mi corazón y quiero que sepas
+            que siempre vamos a estar juntos.<br><br>
+            Pase lo que pase, siempre voy a amarte.<br><br>
+            Y aquí hay una parte de nuestra historia.
+            Yo me encargaré de actualizar todo
+            para que cada momento quede guardado para siempre.
+        </div>
+
+        <!-- FOTO -->
+        <div class="foto">
+            <img src="{{ url_for('static', filename='images/foto1.png') }}" alt="Nosotros">
+        </div>
+
+        <div class="frase final">
+            Quiero que seas mi inicio,<br>
+            mi medio<br>
+            y mi final.
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="{{ url_for('static', filename='particles.js') }}"></script>
+
+</body>
+</html>
